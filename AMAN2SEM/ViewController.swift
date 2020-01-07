@@ -56,6 +56,7 @@ class ViewController: UIViewController {
     @IBAction func volumeChanged(_ sender: UISlider) {
         
         player.volume = volumeSlider.value
+       // print(aman)
         
     }
 }
